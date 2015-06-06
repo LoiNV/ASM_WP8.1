@@ -82,14 +82,14 @@
     <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Audio\Taunts\Cackle.wav">
       <PackagePath>Assets\Audio\Taunts\Cackle.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Audio\Taunts\Clock Ticking.wav">
-      <PackagePath>Assets\Audio\Taunts\Clock Ticking.wav</PackagePath>
+    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Audio\Taunts\ClockTicking.wav">
+      <PackagePath>Assets\Audio\Taunts\ClockTicking.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Audio\Taunts\Dial up.wav">
-      <PackagePath>Assets\Audio\Taunts\Dial up.wav</PackagePath>
+    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Audio\Taunts\Dialup.wav">
+      <PackagePath>Assets\Audio\Taunts\Dialup.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Audio\Taunts\Drum roll.wav">
-      <PackagePath>Assets\Audio\Taunts\Drum roll.wav</PackagePath>
+    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Audio\Taunts\Drumroll.wav">
+      <PackagePath>Assets\Audio\Taunts\Drumroll.wav</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Audio\Taunts\Elevator Music.wav">
       <PackagePath>Assets\Audio\Taunts\Elevator Music.wav</PackagePath>
@@ -118,17 +118,17 @@
     <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Audio\Taunts\Yawn.wav">
       <PackagePath>Assets\Audio\Taunts\Yawn.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Audio\Warnings\Air horn.wav">
-      <PackagePath>Assets\Audio\Warnings\Air horn.wav</PackagePath>
+    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Audio\Warnings\Airhorn.wav">
+      <PackagePath>Assets\Audio\Warnings\Airhorn.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Audio\Warnings\Air Raid.wav">
-      <PackagePath>Assets\Audio\Warnings\Air Raid.wav</PackagePath>
+    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Audio\Warnings\AirRaid.wav">
+      <PackagePath>Assets\Audio\Warnings\AirRaid.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Audio\Warnings\Alarm Clock - Bell.wav">
-      <PackagePath>Assets\Audio\Warnings\Alarm Clock - Bell.wav</PackagePath>
+    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Audio\Warnings\AlarmClock-Bell.wav">
+      <PackagePath>Assets\Audio\Warnings\AlarmClock-Bell.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Audio\Warnings\Alarm Clock - Electric.wav">
-      <PackagePath>Assets\Audio\Warnings\Alarm Clock - Electric.wav</PackagePath>
+    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Audio\Warnings\AlarmClock-Electric.wav">
+      <PackagePath>Assets\Audio\Warnings\AlarmClock-Electric.wav</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Audio\Warnings\Backing up.wav">
       <PackagePath>Assets\Audio\Warnings\Backing up.wav</PackagePath>
@@ -181,6 +181,30 @@
     <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Images\Cartoons\Splat.jpg">
       <PackagePath>Assets\Images\Cartoons\Splat.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Images\Taunts\Cackle.jpg">
+      <PackagePath>Assets\Images\Taunts\Cackle.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Images\Taunts\ClockTicking.jpg">
+      <PackagePath>Assets\Images\Taunts\ClockTicking.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Images\Taunts\Dialup.jpg">
+      <PackagePath>Assets\Images\Taunts\Dialup.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Images\Taunts\Drumroll.jpg">
+      <PackagePath>Assets\Images\Taunts\Drumroll.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Images\Warnings\Airhorn.jpg">
+      <PackagePath>Assets\Images\Warnings\Airhorn.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Images\Warnings\AirRaid.jpg">
+      <PackagePath>Assets\Images\Warnings\AirRaid.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Images\Warnings\AlarmClock-Bell.jpg">
+      <PackagePath>Assets\Images\Warnings\AlarmClock-Bell.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Images\Warnings\AlarmClock-Electric.jpg">
+      <PackagePath>Assets\Images\Warnings\AlarmClock-Electric.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -208,14 +232,8 @@
     <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\Common\ReadMe.txt">
       <PackagePath>Common\ReadMe.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\DataModel\SampleData.json">
-      <PackagePath>DataModel\SampleData.json</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\bin\Debug\ItemPage.xbf">
-      <PackagePath>ItemPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\ASM_WP8.1\GameForKids\GameForKids\bin\Debug\PivotPage.xbf">
       <PackagePath>PivotPage.xbf</PackagePath>

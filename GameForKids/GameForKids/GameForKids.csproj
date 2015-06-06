@@ -80,10 +80,6 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <Page Include="ItemPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="PivotPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -99,9 +95,6 @@
     <Compile Include="Common\SuspensionManager.cs" />
     <Compile Include="DataModel\Groups.cs" />
     <Compile Include="DataModel\Items.cs" />
-    <Compile Include="ItemPage.xaml.cs">
-      <DependentUpon>ItemPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="PivotPage.xaml.cs">
       <DependentUpon>PivotPage.xaml</DependentUpon>
     </Compile>
@@ -135,9 +128,9 @@
     <Content Include="Assets\Audio\Cartoons\Out Here.wav" />
     <Content Include="Assets\Audio\Cartoons\Splat.wav" />
     <Content Include="Assets\Audio\Taunts\Cackle.wav" />
-    <Content Include="Assets\Audio\Taunts\Clock Ticking.wav" />
-    <Content Include="Assets\Audio\Taunts\Dial up.wav" />
-    <Content Include="Assets\Audio\Taunts\Drum roll.wav" />
+    <Content Include="Assets\Audio\Taunts\ClockTicking.wav" />
+    <Content Include="Assets\Audio\Taunts\Dialup.wav" />
+    <Content Include="Assets\Audio\Taunts\Drumroll.wav" />
     <Content Include="Assets\Audio\Taunts\Elevator Music.wav" />
     <Content Include="Assets\Audio\Taunts\Laugh - Evil.wav" />
     <Content Include="Assets\Audio\Taunts\Laugh.wav" />
@@ -147,10 +140,10 @@
     <Content Include="Assets\Audio\Taunts\Snore.wav" />
     <Content Include="Assets\Audio\Taunts\Wrong Price.wav" />
     <Content Include="Assets\Audio\Taunts\Yawn.wav" />
-    <Content Include="Assets\Audio\Warnings\Air horn.wav" />
-    <Content Include="Assets\Audio\Warnings\Air Raid.wav" />
-    <Content Include="Assets\Audio\Warnings\Alarm Clock - Bell.wav" />
-    <Content Include="Assets\Audio\Warnings\Alarm Clock - Electric.wav" />
+    <Content Include="Assets\Audio\Warnings\Airhorn.wav" />
+    <Content Include="Assets\Audio\Warnings\AirRaid.wav" />
+    <Content Include="Assets\Audio\Warnings\AlarmClock-Bell.wav" />
+    <Content Include="Assets\Audio\Warnings\AlarmClock-Electric.wav" />
     <Content Include="Assets\Audio\Warnings\Backing up.wav" />
     <Content Include="Assets\Audio\Warnings\Bell - Church.wav" />
     <Content Include="Assets\Audio\Warnings\Bell - School.wav" />
@@ -168,6 +161,14 @@
     <Content Include="Assets\Images\Cartoons\Buglecharge.jpg" />
     <Content Include="Assets\Images\Cartoons\Laser.jpg" />
     <Content Include="Assets\Images\Cartoons\Splat.jpg" />
+    <Content Include="Assets\Images\Taunts\Cackle.jpg" />
+    <Content Include="Assets\Images\Taunts\ClockTicking.jpg" />
+    <Content Include="Assets\Images\Taunts\Dialup.jpg" />
+    <Content Include="Assets\Images\Taunts\Drumroll.jpg" />
+    <Content Include="Assets\Images\Warnings\Airhorn.jpg" />
+    <Content Include="Assets\Images\Warnings\AirRaid.jpg" />
+    <Content Include="Assets\Images\Warnings\AlarmClock-Bell.jpg" />
+    <Content Include="Assets\Images\Warnings\AlarmClock-Electric.jpg" />
     <Content Include="Assets\Logo.scale-240.png" />
     <Content Include="Assets\SmallLogo.scale-240.png" />
     <Content Include="Assets\SplashScreen.scale-240.png" />

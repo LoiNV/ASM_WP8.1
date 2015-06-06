@@ -83,20 +83,7 @@ namespace GameForKids
         {
             // TODO: Save the unique state of the page here.
         }
-
-        private void ItemView_ItemClick(object sender, ItemClickEventArgs e)
-        {
-            if (gridAnimals.SelectedItem != null)
-            {
-                Items item = gridAnimals.SelectedItem as Items;
-                MediaElement media = new MediaElement();
-
-                media.Source = new Uri(item.MediaPath, UriKind.RelativeOrAbsolute);
-                media.Play();
-            }
-           
-        }
-
+        
 
         #region NavigationHelper registration
 
@@ -124,5 +111,30 @@ namespace GameForKids
         }
 
         #endregion
+
+        private void ItemClick(object sender, SelectionChangedEventArgs e)
+        {
+            Items item = new Items();
+
+            if (gridAnimals.SelectedItem != null)
+            {
+                item = gridAnimals.SelectedItem as Items;
+            }
+            if (gridCartoons.SelectedItem != null)
+            {
+                item = gridCartoons.SelectedItem as Items;
+            }
+            if (gridTaunts.SelectedItem != null)
+            {
+                item = gridTaunts.SelectedItem as Items;
+            }
+            if (gridWarnings.SelectedItem != null)
+            {
+                item = gridWarnings.SelectedItem as Items;
+            }
+
+            media.Source = new Uri(item.MediaPath, UriKind.RelativeOrAbsolute);
+            media.Play();
+        }
     }
 }

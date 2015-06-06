@@ -16,12 +16,7 @@
             </NavigationThemeTransition>
         </TransitionCollection>
     </Page.Transitions>
-
-    <Page.BottomAppBar>
-        <CommandBar>            
-            <AppBarButton x:Uid="AddAppBarButton" x:Name="AddAppBarButton" Label="Edit" Icon="Edit" />
-        </CommandBar>
-    </Page.BottomAppBar>
+    
     <Page.DataContext>
         <ViewModel:MainViewModel/>
     </Page.DataContext>
@@ -33,7 +28,7 @@
 				Margin="10,14.5,0,0"
 				Header="Animals"
 				CommonNavigationTransitionInfo.IsStaggerElement="True">
-                <GridView Name="gridAnimals" ItemsSource="{Binding Animals.Item}" >
+                <GridView Name="gridAnimals" ItemsSource="{Binding Animals.Item}" SelectionChanged="ItemClick" >
                     
                     <GridView.ItemTemplate>
                         <DataTemplate>
@@ -50,7 +45,7 @@
 				x:Uid="PivotItem2"
 				Margin="10,14.5,0,0"
 				Header="Cartoons"	>
-                <GridView ItemsSource="{Binding Cartoons.Item}" >
+                <GridView Name="gridCartoons" ItemsSource="{Binding Cartoons.Item}" SelectionChanged="ItemClick" >
 
                     <GridView.ItemTemplate>
                         <DataTemplate>
@@ -63,10 +58,35 @@
                 </GridView>
             </PivotItem>
 
-            <PivotItem Margin="10,14.5,0,0" Header="Taunts"/>
+            <PivotItem Margin="10,14.5,0,0" Header="Taunts">
+                <GridView Name="gridTaunts" ItemsSource="{Binding Taunts.Item}" SelectionChanged="ItemClick"  >
 
-            <PivotItem Margin="10,14.5,0,0" Header="Warnings"/>
+                    <GridView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Image Source="{Binding ImagePath}" Width="120" Height="120" Stretch="Fill" Margin="0,0,8,8"/>
+                                <TextBlock Text="{Binding Name}" FontSize="16" Foreground="#FF0B2AF0" FontWeight="Bold"/>
+                            </Grid>
+                        </DataTemplate>
+                    </GridView.ItemTemplate>
+                </GridView>
+            </PivotItem>
+
+            <PivotItem Margin="10,14.5,0,0" Header="Warnings">
+                <GridView Name="gridWarnings" ItemsSource="{Binding Warnings.Item}" SelectionChanged="ItemClick" >
+
+                    <GridView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Image Source="{Binding ImagePath}" Width="120" Height="120" Stretch="Fill" Margin="0,0,8,8"/>
+                                <TextBlock Text="{Binding Name}" FontSize="16" Foreground="#FF0B2AF0" FontWeight="Bold"/>
+                            </Grid>
+                        </DataTemplate>
+                    </GridView.ItemTemplate>
+                </GridView>
+            </PivotItem>
         </Pivot>
+        <MediaElement Name="media"/>
     </Grid>
 
 </Page>
