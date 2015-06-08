@@ -1,0 +1,123 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ViewModels="clr-namespace:PivotApp1.ViewModels"
+    x:Class="PivotApp1.MainPage"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <phone:PhoneApplicationPage.DataContext>
+        <ViewModels:MainViewModel/>
+    </phone:PhoneApplicationPage.DataContext>
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+
+        <!--Pivot Control-->
+        <phone:Pivot Title="GAME FOR KIDS">
+            <!--Pivot item one-->
+            <phone:PivotItem Header="{Binding Animals.Name}">
+                <ListBox x:Name="listAnimals" ItemsSource="{Binding Animals.Item}" SelectionChanged="listAnimals_SelectionChanged" >
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <toolkit:WrapPanel Orientation="Horizontal"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="130"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+                                <Image Source="{Binding ImagePath}" Width="130" Height="130" Margin="10,10,10,0" Stretch="Fill"/>
+                                <TextBlock Grid.Row="1" Text="{Binding Name}" Width="120" Margin="0" HorizontalAlignment="Center" TextWrapping="Wrap" FontSize="16"/>
+                            </Grid>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                   
+                </ListBox>
+               
+            </phone:PivotItem>
+
+            <!--Pivot item two-->
+            <phone:PivotItem Header="{Binding Cartoons.Name}">
+                <ListBox x:Name="listCartoons" ItemsSource="{Binding Cartoons.Item}" SelectionChanged="listCartoons_SelectionChanged" >
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <toolkit:WrapPanel Orientation="Horizontal"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="125"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+                                <Image Source="{Binding ImagePath}" Width="130" Height="130" Margin="10,10,10,0" Stretch="Fill"/>
+                                <TextBlock Grid.Row="1" Text="{Binding Name}" Width="120" Margin="0" HorizontalAlignment="Center" TextWrapping="Wrap" FontSize="16"/>
+                            </Grid>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>                   
+                </ListBox>
+            </phone:PivotItem>
+
+            <!--Pivot item three-->
+            <phone:PivotItem Header="{Binding Taunts.Name}">
+                <ListBox x:Name="listTaunts" ItemsSource="{Binding Taunts.Item}" SelectionChanged="listTaunts_SelectionChanged">
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <toolkit:WrapPanel Orientation="Horizontal"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="125"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+                                <Image Source="{Binding ImagePath}" Width="130" Height="130" Margin="10,10,10,0" Stretch="Fill"/>
+                                <TextBlock Grid.Row="1" Text="{Binding Name}" Width="120" Margin="0" HorizontalAlignment="Center" TextWrapping="Wrap" FontSize="16"/>
+                            </Grid>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </phone:PivotItem>
+
+            <!--Pivot item four-->
+            <phone:PivotItem Header="{Binding Warnings.Name}">
+                <ListBox x:Name="listWarnings" ItemsSource="{Binding Warnings.Item}" SelectionChanged="listWarnings_SelectionChanged">
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <toolkit:WrapPanel Orientation="Horizontal"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="125"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+                                <Image Source="{Binding ImagePath}" Width="130" Height="130" Margin="10,10,10,0" Stretch="Fill"/>
+                                <TextBlock Grid.Row="1" Text="{Binding Name}" Width="120" Margin="0" HorizontalAlignment="Center" TextWrapping="Wrap" FontSize="16"/>
+                            </Grid>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </phone:PivotItem>
+        </phone:Pivot>
+        <MediaElement Name="media"/>
+    </Grid>
+
+</phone:PhoneApplicationPage>
