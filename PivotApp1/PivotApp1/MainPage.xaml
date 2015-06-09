@@ -23,7 +23,7 @@
 
         <!--Pivot Control-->
         <phone:Pivot Title="GAME FOR KIDS">
-            <!--Pivot item one-->
+            <!--Pivot item Animals-->
             <phone:PivotItem Header="{Binding Animals.Name}">
                 <ListBox x:Name="listAnimals" ItemsSource="{Binding Animals.Item}" SelectionChanged="listAnimals_SelectionChanged" >
                     <ListBox.ItemsPanel>
@@ -48,7 +48,7 @@
                
             </phone:PivotItem>
 
-            <!--Pivot item two-->
+            <!--Pivot item Cartoons-->
             <phone:PivotItem Header="{Binding Cartoons.Name}">
                 <ListBox x:Name="listCartoons" ItemsSource="{Binding Cartoons.Item}" SelectionChanged="listCartoons_SelectionChanged" >
                     <ListBox.ItemsPanel>
@@ -71,7 +71,7 @@
                 </ListBox>
             </phone:PivotItem>
 
-            <!--Pivot item three-->
+            <!--Pivot item Taunts-->
             <phone:PivotItem Header="{Binding Taunts.Name}">
                 <ListBox x:Name="listTaunts" ItemsSource="{Binding Taunts.Item}" SelectionChanged="listTaunts_SelectionChanged">
                     <ListBox.ItemsPanel>
@@ -94,7 +94,7 @@
                 </ListBox>
             </phone:PivotItem>
 
-            <!--Pivot item four-->
+            <!--Pivot item Warnings-->
             <phone:PivotItem Header="{Binding Warnings.Name}">
                 <ListBox x:Name="listWarnings" ItemsSource="{Binding Warnings.Item}" SelectionChanged="listWarnings_SelectionChanged">
                     <ListBox.ItemsPanel>

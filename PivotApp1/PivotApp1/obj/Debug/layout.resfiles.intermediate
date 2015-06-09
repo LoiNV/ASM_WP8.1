@@ -8,8 +8,8 @@ Assets\Audio\Animals\Crickets.wav
 Assets\Audio\Animals\Dog.wav
 Assets\Audio\Animals\Dolphin.wav
 Assets\Audio\Animals\Duck.wav
-Assets\Audio\Animals\Horse Gallop.wav
-Assets\Audio\Animals\Horse Walk.wav
+Assets\Audio\Animals\HorseGallop.wav
+Assets\Audio\Animals\HorseWalk.wav
 Assets\Audio\Animals\Lion.wav
 Assets\Audio\Animals\Pig.wav
 Assets\Audio\Animals\Rooster.wav
@@ -18,58 +18,74 @@ Assets\Audio\Cartoons\Boing.wav
 Assets\Audio\Cartoons\Bronk.wav
 Assets\Audio\Cartoons\Buglecharge.wav
 Assets\Audio\Cartoons\Laser.wav
-Assets\Audio\Cartoons\Out Here.wav
+Assets\Audio\Cartoons\OutHere.wav
 Assets\Audio\Cartoons\Splat.wav
 Assets\Audio\Taunts\Cackle.wav
-Assets\Audio\Taunts\Clock Ticking.wav
 Assets\Audio\Taunts\ClockTicking.wav
-Assets\Audio\Taunts\Dial up.wav
 Assets\Audio\Taunts\Dialup.wav
-Assets\Audio\Taunts\Drum roll.wav
 Assets\Audio\Taunts\Drumroll.wav
-Assets\Audio\Taunts\Elevator Music.wav
-Assets\Audio\Taunts\Laugh - Evil.wav
+Assets\Audio\Taunts\ElevatorMusic.wav
 Assets\Audio\Taunts\Laugh.wav
+Assets\Audio\Taunts\Laugh-Evil.wav
 Assets\Audio\Taunts\Sad Trombone.wav
 Assets\Audio\Taunts\Sarcastic Ooo.wav
 Assets\Audio\Taunts\Sigh.wav
 Assets\Audio\Taunts\Snore.wav
 Assets\Audio\Taunts\Wrong Price.wav
 Assets\Audio\Taunts\Yawn.wav
-Assets\Audio\Warnings\Air horn.wav
-Assets\Audio\Warnings\Air Raid.wav
 Assets\Audio\Warnings\Airhorn.wav
 Assets\Audio\Warnings\AirRaid.wav
-Assets\Audio\Warnings\Alarm Clock - Bell.wav
-Assets\Audio\Warnings\Alarm Clock - Electric.wav
 Assets\Audio\Warnings\AlarmClock-Bell.wav
 Assets\Audio\Warnings\AlarmClock-Electric.wav
-Assets\Audio\Warnings\Backing up.wav
-Assets\Audio\Warnings\Bell - Church.wav
-Assets\Audio\Warnings\Bell - School.wav
-Assets\Audio\Warnings\Fog horn.wav
-Assets\Audio\Warnings\Glass breaking.wav
-Assets\Audio\Warnings\Missle alert.wav
-Assets\Audio\Warnings\Police - UK.wav
-Assets\Audio\Warnings\Police - US.wav
+Assets\Audio\Warnings\Backingup.wav
+Assets\Audio\Warnings\Bell-Church.wav
+Assets\Audio\Warnings\Bell-School.wav
+Assets\Audio\Warnings\Foghorn.wav
+Assets\Audio\Warnings\Glassbreaking.wav
+Assets\Audio\Warnings\Misslealert.wav
+Assets\Audio\Warnings\Police-UK.wav
+Assets\Audio\Warnings\Police-US.wav
 Assets\Audio\Warnings\Vuvuzela.wav
 Assets\BadgeLogo.png
 Assets\Images\Animals\CatKitten.jpg
 Assets\Images\Animals\CatMeow.jpg
 Assets\Images\Animals\ChimPanzee.jpg
 Assets\Images\Animals\Cow.jpg
+Assets\Images\Animals\Crickets.jpg
+Assets\Images\Animals\Dog.jpg
+Assets\Images\Animals\Dolphin.jpg
+Assets\Images\Animals\Duck.jpg
+Assets\Images\Animals\HorseGallop.jpg
+Assets\Images\Animals\HorseWalk.jpg
+Assets\Images\Animals\Lion.jpg
+Assets\Images\Animals\Pig.jpg
+Assets\Images\Animals\Rooster.jpg
+Assets\Images\Animals\Sheep.jpg
 Assets\Images\Cartoons\Boing.jpg
+Assets\Images\Cartoons\Bronk.jpg
 Assets\Images\Cartoons\Buglecharge.jpg
 Assets\Images\Cartoons\Laser.jpg
+Assets\Images\Cartoons\OutHere.jpg
 Assets\Images\Cartoons\Splat.jpg
 Assets\Images\Taunts\Cackle.jpg
 Assets\Images\Taunts\ClockTicking.jpg
 Assets\Images\Taunts\Dialup.jpg
 Assets\Images\Taunts\Drumroll.jpg
+Assets\Images\Taunts\ElevatorMusic.jpg
+Assets\Images\Taunts\Laugh-Evil.jpg
 Assets\Images\Warnings\Airhorn.jpg
 Assets\Images\Warnings\AirRaid.jpg
 Assets\Images\Warnings\AlarmClock-Bell.jpg
 Assets\Images\Warnings\AlarmClock-Electric.jpg
+Assets\Images\Warnings\Backingup.jpg
+Assets\Images\Warnings\Bell-Church.jpg
+Assets\Images\Warnings\Bell-School.jpg
+Assets\Images\Warnings\Foghorn.jpg
+Assets\Images\Warnings\Glassbreaking.jpg
+Assets\Images\Warnings\MissleAlert.jpg
+Assets\Images\Warnings\Police-UK.jpg
+Assets\Images\Warnings\Police-US.jpg
+Assets\Images\Warnings\Vuvuzela.jpg
 Assets\Logo.png
 Assets\SplashScreen.png
 Assets\SquareTile150x150.png

@@ -10,6 +10,7 @@ using Microsoft.Phone.Shell;
 using PivotApp1.Resources;
 using PivotApp1.ViewModels;
 using PivotApp1.Model;
+using System.Windows.Media;
 
 namespace PivotApp1
 {
@@ -24,11 +25,32 @@ namespace PivotApp1
             // Set the data context of the listbox control to the sample data
             MainViewModel mvm = new MainViewModel();
             DataContext = mvm;
-
+            CreateIconicTile();
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            
+        }
+
+        private void CreateIconicTile()
+        {
+            ShellTile tileId = FindTile("CreateIconicTile");
+            if (tileId == null)
+            {
+                FlipTileData flipTile = new FlipTileData
+                {
+                    Title = "Cat Meow",
+                    BackTitle = "ChimPanzee",
+                    WideBackContent = "Một trò chơi vui vẻ và bổ ích cho trẻ em",
+                    SmallBackgroundImage = new Uri("Assets/Images/Animals/CatMeow.jpg", UriKind.RelativeOrAbsolute),
+                    BackgroundImage = new Uri("Assets/Images/Animals/CatMeow.jpg", UriKind.RelativeOrAbsolute),
+                    BackBackgroundImage = new Uri("Assets/Images/Animals/ChimPanzee.jpg", UriKind.RelativeOrAbsolute),
+                    WideBackgroundImage = new Uri("Assets/Images/Animals/CatMeow.jpg", UriKind.RelativeOrAbsolute),
+                    WideBackBackgroundImage = new Uri("Assets/Images/Animals/ChimPanzee.jpg", UriKind.RelativeOrAbsolute)
+                };
+                ShellTile.Create(new Uri("/MainPage.xaml?newflipTile", UriKind.RelativeOrAbsolute), flipTile, true);
+            }
             
         }
 
@@ -38,19 +60,18 @@ namespace PivotApp1
             ShellTile tileId = FindTile("CreateIconicTile");
             if (tileId != null)
             {
-                IconicTileData iconicTileData = new IconicTileData
+                FlipTileData flipTile = new FlipTileData
                 {
                     Title = item.Name,
-                    IconImage = new Uri(item.ImagePath, UriKind.RelativeOrAbsolute),
-                    SmallIconImage = new Uri(item.ImagePath, UriKind.RelativeOrAbsolute),
-                    Count = DateTime.Now.Second
+                    SmallBackgroundImage = new Uri(item.ImagePath, UriKind.RelativeOrAbsolute),
+                    BackgroundImage = new Uri(item.ImagePath, UriKind.RelativeOrAbsolute),
+                    WideBackgroundImage = new Uri(item.ImagePath, UriKind.RelativeOrAbsolute)
                 };
-                tileId.Update(iconicTileData);
-                MessageBox.Show("Iconic Tile đã được cập nhật");
+                tileId.Update(flipTile);                
             }
             else
             {
-                MessageBox.Show("Hãy tạo Tile trước");
+                CreateIconicTile();
             }
         }
         private ShellTile FindTile(String uriArg)

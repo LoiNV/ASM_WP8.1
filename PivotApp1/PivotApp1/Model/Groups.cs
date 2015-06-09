@@ -10,12 +10,12 @@ namespace PivotApp1.Model
     public class Groups
     {
         public string Name { get; set; }
-        public ObservableCollection<Items> Item { get; set; }
+        public List<Items> Item { get; set; }
 
         public Groups(string name)
         {
             this.Name = name;
-            this.Item = new ObservableCollection<Items>();
+            this.Item = new List<Items>();
         }
     }
 }
