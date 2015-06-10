@@ -84,3 +84,4 @@ D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\obj\Release\MultipleQual
 D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\obj\Release\ProjectArchitectures.txt
 D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\obj\Release\MDILProjectFiles.xml
 D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\obj\Release\XapCacheFile.xml
+D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\obj\Release\PivotApp1.csprojResolveAssemblyReference.cache

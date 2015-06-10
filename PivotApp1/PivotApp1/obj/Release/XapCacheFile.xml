@@ -1,6 +1,6 @@
-﻿<xapCache source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\Bin\Release\PivotApp1_Release_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="9/6/2015 20:47:36 PM">
-  <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\Bin\Release\resources.pri" archivePath="resources.pri" lastWriteTime="9/6/2015 20:47:30 PM" />
-  <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\obj\Release\PivotApp1.dll" archivePath="PivotApp1.dll" lastWriteTime="9/6/2015 20:47:30 PM" />
+﻿<xapCache source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\Bin\Release\PivotApp1_Release_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="10/6/2015 11:23:31 AM">
+  <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\Bin\Release\resources.pri" archivePath="resources.pri" lastWriteTime="10/6/2015 11:23:24 AM" />
+  <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\obj\Release\PivotApp1.dll" archivePath="PivotApp1.dll" lastWriteTime="10/6/2015 11:23:23 AM" />
   <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="7/6/2015 21:00:15 PM" />
   <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\Assets\Audio\Animals\CatKitten.wav" archivePath="Assets\Audio\Animals\CatKitten.wav" lastWriteTime="7/6/2015 21:33:01 PM" />
   <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\Assets\Audio\Animals\CatMeow.wav" archivePath="Assets\Audio\Animals\CatMeow.wav" lastWriteTime="7/6/2015 21:33:01 PM" />
@@ -104,11 +104,11 @@
   <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="7/6/2015 21:28:14 PM" />
   <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="7/6/2015 21:28:14 PM" />
   <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="7/6/2015 21:28:13 PM" />
-  <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="9/6/2015 20:47:31 PM" />
+  <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="10/6/2015 11:23:26 AM" />
   <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\Bin\Release\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="7/6/2015 21:00:15 PM" />
   <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\Bin\Release\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="7/6/2015 21:00:15 PM" />
   <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="7/6/2015 21:28:13 PM" />
-  <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\Bin\Release\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="9/6/2015 20:47:31 PM" />
-  <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\obj\Release\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="9/6/2015 20:47:31 PM" />
-  <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\Bin\Release\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="9/6/2015 20:47:30 PM" />
+  <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\Bin\Release\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="10/6/2015 11:23:26 AM" />
+  <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\obj\Release\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="10/6/2015 11:23:26 AM" />
+  <file source="D:\SEM 3\WindowsPhone 8.1\ASM_WP8.1\PivotApp1\PivotApp1\Bin\Release\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="10/6/2015 11:23:25 AM" />
 </xapCache>
